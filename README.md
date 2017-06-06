@@ -1,7 +1,9 @@
 # smitm
 A http and https mitm tool
-# build
+# Build
 
-# install
+# Install
 
-# usage
+# Usage
+
+# License
