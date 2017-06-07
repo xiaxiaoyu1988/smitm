@@ -1,4 +1,6 @@
 {
+	"front":"http",
+	"backend":"http",
 	"log":true,
 	"logPath":"/var/log",
 	"logLevel":10000

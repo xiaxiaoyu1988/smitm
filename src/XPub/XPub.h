@@ -17,5 +17,10 @@ enum CONFIG_TYPE{
 	CONFIG_BOOL
 };
 
+enum SERVER_TYPE{
+	SERVER_HTTP,
+	SERVER_HTTPS
+};
+
 
 #endif /* SRC_XPUB_XPUB_H_ */

@@ -1,7 +1,7 @@
 CC = g++
-INCLUDES = -I ./src -I ./src/XPub -I ./src/XConfig
-LIBS = -I ./lib
-SRCS=$(wildcard ./src/*.cpp ./src/*/*.cpp)
+INCLUDES = -I ./lib -I ./lib/libevent -I ./src -I ./src/XPub -I ./src/XConfig -I ./src/XHttpClient
+LIBS = -L ./lib -lpthread
+SRCS=$(wildcard ./src/*.cpp ./src/*/*.cpp) ./lib/libevent/*.a
 
 all: smitm
 

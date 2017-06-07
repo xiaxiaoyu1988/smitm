@@ -1,6 +1,7 @@
 #include <iostream>
 #include "XConfig.h"
 #include "XPub.h"
+#include "XHttpClient.h"
 
 using namespace std;
 int main()
@@ -23,6 +24,8 @@ int main()
 	bool log;
 	XConfig::GetInstance()->getValueByKey(key, (void*)&log, CONFIG_BOOL);
 	cout<<(log?"true":"false")<<endl;
+
+	XHttpClient c;
 
     return 0;
 }
