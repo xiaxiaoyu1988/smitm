@@ -2,6 +2,7 @@
 	"front":"http",
 	"backend":"http",
 	"log":true,
-	"logPath":"/var/log",
-	"logLevel":10000
+	"logPath":"./log/",
+	"logLevel":10000,
+	"logSize":204800
 }
